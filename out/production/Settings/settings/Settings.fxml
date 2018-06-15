@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="539.0" style="-fx-background-color: #2A0033;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="75.0" prefHeight="570.0" prefWidth="539.0">
+         <children>
+            <TextField layoutX="203.0" layoutY="86.0" prefHeight="34.0" prefWidth="281.0" style="-fx-border-color: #9643A9; -fx-background-color: #2A0033; -fx-background-insets: 0; -fx-border-radius: 20;" styleClass="text-input" stylesheets="@style.css" />
+            <Label layoutX="56.0" layoutY="93.0" text="E-mail" textFill="#ddd9d9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="153.0" text="Current Password" textFill="#ddd9d9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="203.0" layoutY="146.0" prefHeight="34.0" prefWidth="281.0" style="-fx-background-color: #2A0033; -fx-border-color: #9643A9; -fx-border-radius: 20; -fx-background-insets: 0000;" styleClass="text-input" stylesheets="@style.css" />
+            <Label layoutX="56.0" layoutY="210.0" text="New Password" textFill="#ddd9d9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="203.0" layoutY="203.0" prefHeight="34.0" prefWidth="281.0" style="-fx-background-color: #2A0033; -fx-border-color: #9643A9; -fx-border-radius: 20; -fx-background-insets: 0000;" styleClass="text-input" stylesheets="@style.css" />
+            <Label layoutX="53.0" layoutY="265.0" text="Confirm Password" textFill="#ddd9d9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="203.0" layoutY="258.0" prefHeight="34.0" prefWidth="281.0" style="-fx-background-color: #2A0033; -fx-border-color: #9643A9; -fx-border-radius: 20; -fx-background-insets: 0000;" styleClass="text-input" stylesheets="@style.css" />
+            <Label layoutX="53.0" layoutY="327.0" text="Use Sign in" textFill="#ddd9d9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <RadioButton layoutX="203.0" layoutY="328.0" mnemonicParsing="false" style="-fx-region-background: #000;" styleClass="radio-color" stylesheets="@style.css" text="Yes" textFill="WHITE" />
+            <RadioButton layoutX="270.0" layoutY="328.0" mnemonicParsing="false" styleClass="radio-color" stylesheets="@style.css" text="No" textFill="WHITE" />
+            <Separator layoutX="56.0" layoutY="383.0" opacity="0.15" prefHeight="3.0" prefWidth="423.0" />
+            <Separator layoutX="54.0" layoutY="36.0" opacity="0.15" prefHeight="3.0" prefWidth="423.0" />
+            <Label layoutX="53.0" layoutY="403.0" text="Remind friends birthday" textFill="#ddd9d9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="456.0" layoutY="405.0" mnemonicParsing="false" />
+            <Label layoutX="54.0" layoutY="442.0" text="Show date" textFill="#ddd9d9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="457.0" layoutY="444.0" mnemonicParsing="false" />
+            <Button layoutX="165.0" layoutY="488.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #FCBB31;" text="CANCEL" textFill="WHITE" />
+            <Button layoutX="299.0" layoutY="488.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="112.0" style="-fx-background-color: #CE201C;" text="SAVE" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Label layoutX="218.0" layoutY="40.0" text="SETTINGS" textFill="#ddd9d9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="515.0" layoutY="4.0" prefHeight="20.0" prefWidth="21.0" text="X" textFill="#ddd9d9">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
